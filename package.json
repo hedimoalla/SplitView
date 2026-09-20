@@ -1,8 +1,8 @@
 {
   "name": "splitview",
-  "productName": "splitview",
+  "productName": "SplitView",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "A modern desktop application for side-by-side image comparison with an interactive draggable slider",
   "main": ".webpack/main",
   "private": true,
   "scripts": {
@@ -12,7 +12,16 @@
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
-  "keywords": [],
+  "keywords": [
+    "image-comparison",
+    "before-after",
+    "photo-comparison",
+    "side-by-side",
+    "image-slider",
+    "visual-analysis",
+    "electron",
+    "desktop-app"
+  ],
   "author": "hedimoalla",
   "license": "MIT",
   "devDependencies": {
