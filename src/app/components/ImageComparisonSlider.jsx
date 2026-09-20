@@ -212,12 +212,12 @@ const ImageComparisonSlider = () => {
       {/* Upload Section */}
       <div className="flex gap-4 p-4 bg-gray-200">
         <div className="flex-1">
-          <div className="flex items-center justify-between mb-2">
+          <div className="text-center mb-2">
             <label className="block text-sm font-medium text-gray-700">Before Image</label>
             {beforeImage && (
               <button
                 onClick={() => clearImage('before')}
-                className="text-xs text-red-600 hover:text-red-800 flex items-center gap-1"
+                className="text-xs text-red-600 hover:text-red-800 flex items-center gap-1 mt-1 mx-auto"
               >
                 <X className="w-3 h-3" />
                 Clear
@@ -263,12 +263,12 @@ const ImageComparisonSlider = () => {
         </div>
 
         <div className="flex-1">
-          <div className="flex items-center justify-between mb-2">
+          <div className="text-center mb-2">
             <label className="block text-sm font-medium text-gray-700">After Image</label>
             {afterImage && (
               <button
                 onClick={() => clearImage('after')}
-                className="text-xs text-red-600 hover:text-red-800 flex items-center gap-1"
+                className="text-xs text-red-600 hover:text-red-800 flex items-center gap-1 mt-1 mx-auto"
               >
                 <X className="w-3 h-3" />
                 Clear
